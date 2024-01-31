@@ -1,5 +1,5 @@
 #include<iostream>
-#define STACK_MAX 10
+#define STACK_MAX 100
 
 using namespace std;
 typedef struct
