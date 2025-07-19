@@ -9,7 +9,7 @@ int gcd(int a, int b)
     else
     return gcd(b,a%b);
 }
-int gcd(int arr[],int n)
+int gcd_mult(int arr[],int n)
 {
     int result = arr[0];
     for(int i=1;i<n;i++)
@@ -32,7 +32,7 @@ int main()
     {
         cin>>arr[i];
     }
-    int final_gcd = gcd(arr,n);
+    int final_gcd = gcd_mult(arr,n);
     cout<<final_gcd<<endl;
     return 0;
 }
